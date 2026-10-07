@@ -8,7 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${fileDirname}\\ColorPicker.cpp",
-                "${fileDirname}\\Serial.cpp",
+                "${fileDirname}\\SerialManager.cpp",
                 "-lws2_32",
                 "-o",
                 "${fileDirname}\\ColorPicker.exe"

@@ -1,4 +1,4 @@
-#include "Serial.h"
+#include "SerialManager.h"
 #include <exception>
 
 using namespace boost;
@@ -6,28 +6,45 @@ using namespace std;
 
 int main() {
 
-    printf("Hello World\n");
-
     asio::io_context io; // Create an IO service
     // Create a serial port object
-    asio::serial_port serial(io);
+    asio::serial_port port(io);
 
     try {
         // Configure the serial port (replace with your port name)
-        configureSerialPort(serial, "COM3", 9600);
+        SerialManager::configureSerialPort(port, "COM3", 9600);
     }
     catch (const std::exception& e) {
-        cerr << "Error configuring serial port: "
-             << e.what() << endl;
+        std::cerr << "Error configuring serial port: "
+             << e.what() << std::endl;
         return 1;
     }
 
-    string message = "LED,0,0,0";
+    /*****************************************
+     * Message Format
+     *  LED,r,g,b turns the RGB LED to the specified color
+     *  PORT,#,1/0 turns port number # on or off;
+     */
+    
+    std::string message;
 
-    // Write the message to the serial port
-    writeToSerialPort(serial, message);
-    cout << "Message sent: " << message << endl;
+    while (true) {
+        cout << "Enter message to send to arduino board or q to quit:" << endl;
 
-    serial.close(); // Close the serial port
-    return 0;
+        cin >> message;
+
+        if (message == "quit" || message == "q") {
+            port.close(); // Close the serial port
+            return 0;
+        }
+
+        // Write the message to the serial port
+        SerialManager::writeToSerialPort(port, message);
+        cout << "Message sent: " << message << endl;
+
+        std::string response = SerialManager::readFromSerialPort(port);
+        if (!response.empty()) {
+            cout << "Response received: " << response << endl;
+        }
+    }
 }
