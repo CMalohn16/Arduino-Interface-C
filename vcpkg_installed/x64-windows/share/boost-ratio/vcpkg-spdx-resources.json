@@ -1,0 +1,19 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "f4968f0b4b414f18845ca0954180a78625508e480abfd5513c0098274a17d94c6e941b22c07b596192f9e2ff26addc441c9aa6b435792b5e909fe7a9605482f4"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "git+https://github.com/boostorg/ratio@boost-1.92.0",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "boostorg/ratio"
+}
+  ]
+}

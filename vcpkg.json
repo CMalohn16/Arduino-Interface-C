@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "arduino-interface-c",
+    "version": "0.15.2",
+    "dependencies": [
+        "boost-asio",
+        "boost-system",
+        "boost-thread"
+    ]
+}
