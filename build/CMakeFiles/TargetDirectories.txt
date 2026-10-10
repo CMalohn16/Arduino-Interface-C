@@ -1,0 +1,3 @@
+C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/build/CMakeFiles/MyProject.dir
+C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/build/CMakeFiles/edit_cache.dir
+C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/build/CMakeFiles/rebuild_cache.dir

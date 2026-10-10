@@ -1,0 +1,4 @@
+# ninja log v7
+3	3548	8133612635181147	CMakeFiles/MyProject.dir/src/ArduinoInterface.cpp.obj	47496d3da2702778
+19	3087	8133613430965072	CMakeFiles/MyProject.dir/src/SerialManager.cpp.obj	e653dc2b3c9fe06a
+3088	4155	8133613461652480	MyProject.exe	ef9e25ae9118b1db

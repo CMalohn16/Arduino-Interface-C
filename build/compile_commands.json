@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -external:I\"C:\\Charlie Files\\Arduino-Interface\\Arduino-Interface-C\\build\\vcpkg_installed\\x64-windows\\include\" -external:W0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi /FoCMakeFiles\\MyProject.dir\\src\\ArduinoInterface.cpp.obj /FdCMakeFiles\\MyProject.dir\\ /FS -c \"C:\\Charlie Files\\Arduino-Interface\\Arduino-Interface-C\\src\\ArduinoInterface.cpp\"",
+  "file": "C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/src/ArduinoInterface.cpp",
+  "output": "C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/build/CMakeFiles/MyProject.dir/src/ArduinoInterface.cpp.obj"
+},
+{
+  "directory": "C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/build",
+  "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -external:I\"C:\\Charlie Files\\Arduino-Interface\\Arduino-Interface-C\\build\\vcpkg_installed\\x64-windows\\include\" -external:W0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi /FoCMakeFiles\\MyProject.dir\\src\\SerialManager.cpp.obj /FdCMakeFiles\\MyProject.dir\\ /FS -c \"C:\\Charlie Files\\Arduino-Interface\\Arduino-Interface-C\\src\\SerialManager.cpp\"",
+  "file": "C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/src/SerialManager.cpp",
+  "output": "C:/Charlie Files/Arduino-Interface/Arduino-Interface-C/build/CMakeFiles/MyProject.dir/src/SerialManager.cpp.obj"
+}
+]
