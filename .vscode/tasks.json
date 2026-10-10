@@ -2,16 +2,16 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "Build ColorPicker",
+            "label": "Build Arduino Interface",
             "command": "C:/Charlie Files/VSCode/Compiler/ucrt64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${fileDirname}\\ColorPicker.cpp",
+                "${fileDirname}\\ArduinoInterface.cpp",
                 "${fileDirname}\\SerialManager.cpp",
                 "-lws2_32",
                 "-o",
-                "${fileDirname}\\ColorPicker.exe"
+                "${fileDirname}\\Arduino.exe"
             ],
             "options": {
                 "cwd": "C:/Charlie Files/VSCode/Compiler/ucrt64/bin"
