@@ -1,6 +1,5 @@
-# json files for config info
-.json
-
 # vscode and build folders
 .vscode/
 build/
+
+CMakeUserPresets.json
