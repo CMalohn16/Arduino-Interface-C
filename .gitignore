@@ -1,4 +1,6 @@
-#build folder
-build/
-#vscode settings\
+# json files for config info
+.json
+
+# vscode and build folders
 .vscode/
+build/
