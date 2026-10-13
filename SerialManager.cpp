@@ -8,6 +8,10 @@ void SerialManager::configureSerialPort(asio::serial_port& serial,
                                         const std::string& portname,
                                         unsigned int baud_rate)
 {
+    if (serial.is_open())
+    {
+        return;
+    }
     serial.open(portname);
     serial.set_option(
         asio::serial_port_base::baud_rate(baud_rate));
