@@ -10,8 +10,7 @@ std::string Controller::serialInit()
         // Configure the serial port (replace with your port name)
         SerialManager::configureSerialPort(port, "COM3", 9600);
         state = "Arduino Board Connected";
-        //sendMessage("Tone,startup");
-        sendMessage("Pin,2,1");
+        sendMessage("Tone,zelda");
     }
     catch (const std::exception& e) {
         state = "Error Configuring Serial Port";
