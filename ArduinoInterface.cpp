@@ -1,7 +1,7 @@
-#include "SerialManager.h"
+#include "src/SerialManager.h"
 #include <exception>
 
-#include "widget.h"
+#include "gui/widget.h"
 #include "Qt6/QtWidgets/QApplication"
 
 // using namespace boost;

@@ -3,7 +3,7 @@
 
 #include <QtWidgets/QWidget>
 #include <QtWidgets/QPushButton>
-#include "Controller.h"
+#include "../Controller.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

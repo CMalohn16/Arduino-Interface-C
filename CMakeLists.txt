@@ -10,11 +10,11 @@ qt_standard_project_setup()
 
 qt_add_executable(MyProject
     WIN32 MACOSX_BUNDLE
-    SerialManager.cpp
+    src/SerialManager.cpp
     Controller.cpp
-    widget.cpp
-    widget.h
-    widget.ui
+    gui/widget.cpp
+    gui/widget.h
+    gui/widget.ui
     ArduinoInterface.cpp
 )
 
